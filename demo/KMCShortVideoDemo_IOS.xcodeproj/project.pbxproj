@@ -1,0 +1,668 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F206F55A1F0E0482007192A4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F206F4FE1F0E0482007192A4 /* AppDelegate.m */; };
+		F206F55B1F0E0482007192A4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F206F4FF1F0E0482007192A4 /* Assets.xcassets */; };
+		F206F55C1F0E0482007192A4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F206F5011F0E0482007192A4 /* LaunchScreen.storyboard */; };
+		F206F55D1F0E0482007192A4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F206F5031F0E0482007192A4 /* Main.storyboard */; };
+		F206F55E1F0E0482007192A4 /* linCollectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F206F5071F0E0482007192A4 /* linCollectionCell.m */; };
+		F206F55F1F0E0482007192A4 /* linCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = F206F5091F0E0482007192A4 /* linCollectionView.m */; };
+		F206F5601F0E0482007192A4 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = F206F50C1F0E0482007192A4 /* LICENSE */; };
+		F206F5611F0E0482007192A4 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = F206F50E1F0E0482007192A4 /* MBProgressHUD.m */; };
+		F206F5621F0E0482007192A4 /* README.mdown in Sources */ = {isa = PBXBuildFile; fileRef = F206F50F1F0E0482007192A4 /* README.mdown */; };
+		F206F5631F0E0482007192A4 /* UIColor+Expanded.m in Sources */ = {isa = PBXBuildFile; fileRef = F206F5111F0E0482007192A4 /* UIColor+Expanded.m */; };
+		F206F5641F0E0482007192A4 /* buttonCollectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F206F5141F0E0482007192A4 /* buttonCollectionCell.m */; };
+		F206F5651F0E0482007192A4 /* editCollectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F206F5161F0E0482007192A4 /* editCollectionCell.m */; };
+		F206F5661F0E0482007192A4 /* editCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = F206F5181F0E0482007192A4 /* editCollectionView.m */; };
+		F206F5671F0E0482007192A4 /* editCollectionViewFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = F206F51A1F0E0482007192A4 /* editCollectionViewFlowLayout.m */; };
+		F206F5681F0E0482007192A4 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F206F51B1F0E0482007192A4 /* Info.plist */; };
+		F206F5691F0E0482007192A4 /* allContextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F206F51E1F0E0482007192A4 /* allContextViewController.m */; };
+		F206F56A1F0E0482007192A4 /* assetCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F206F5201F0E0482007192A4 /* assetCell.m */; };
+		F206F56B1F0E0482007192A4 /* assetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F206F5221F0E0482007192A4 /* assetViewController.m */; };
+		F206F56C1F0E0482007192A4 /* linImagePickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F206F5241F0E0482007192A4 /* linImagePickerViewController.m */; };
+		F206F56D1F0E0482007192A4 /* pictureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F206F5261F0E0482007192A4 /* pictureViewController.m */; };
+		F206F56E1F0E0482007192A4 /* slomoIconView.m in Sources */ = {isa = PBXBuildFile; fileRef = F206F5281F0E0482007192A4 /* slomoIconView.m */; };
+		F206F56F1F0E0482007192A4 /* videoIconView.m in Sources */ = {isa = PBXBuildFile; fileRef = F206F52A1F0E0482007192A4 /* videoIconView.m */; };
+		F206F5701F0E0482007192A4 /* videoIndicatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = F206F52C1F0E0482007192A4 /* videoIndicatorView.m */; };
+		F206F5711F0E0482007192A4 /* videoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F206F52E1F0E0482007192A4 /* videoViewController.m */; };
+		F206F5721F0E0482007192A4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F206F5301F0E0482007192A4 /* main.m */; };
+		F206F5731F0E0482007192A4 /* QBAlbumCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F206F5341F0E0482007192A4 /* QBAlbumCell.m */; };
+		F206F5741F0E0482007192A4 /* QBAlbumsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F206F5361F0E0482007192A4 /* QBAlbumsViewController.m */; };
+		F206F5751F0E0482007192A4 /* QBAssetCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F206F5381F0E0482007192A4 /* QBAssetCell.m */; };
+		F206F5761F0E0482007192A4 /* QBAssetsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F206F53A1F0E0482007192A4 /* QBAssetsViewController.m */; };
+		F206F5771F0E0482007192A4 /* QBCheckmarkView.m in Sources */ = {isa = PBXBuildFile; fileRef = F206F53C1F0E0482007192A4 /* QBCheckmarkView.m */; };
+		F206F5781F0E0482007192A4 /* QBImagePicker.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F206F53E1F0E0482007192A4 /* QBImagePicker.storyboard */; };
+		F206F5791F0E0482007192A4 /* QBImagePickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = F206F5401F0E0482007192A4 /* QBImagePickerController.m */; };
+		F206F57A1F0E0482007192A4 /* QBSlomoIconView.m in Sources */ = {isa = PBXBuildFile; fileRef = F206F5421F0E0482007192A4 /* QBSlomoIconView.m */; };
+		F206F57B1F0E0482007192A4 /* QBVideoIconView.m in Sources */ = {isa = PBXBuildFile; fileRef = F206F5441F0E0482007192A4 /* QBVideoIconView.m */; };
+		F206F57C1F0E0482007192A4 /* QBVideoIndicatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = F206F5461F0E0482007192A4 /* QBVideoIndicatorView.m */; };
+		F206F57D1F0E0482007192A4 /* QBImagePicker.strings in Resources */ = {isa = PBXBuildFile; fileRef = F206F5471F0E0482007192A4 /* QBImagePicker.strings */; };
+		F206F57E1F0E0482007192A4 /* SAResizibleBubble.m in Sources */ = {isa = PBXBuildFile; fileRef = F206F54B1F0E0482007192A4 /* SAResizibleBubble.m */; };
+		F206F57F1F0E0482007192A4 /* SASliderLeft.m in Sources */ = {isa = PBXBuildFile; fileRef = F206F54D1F0E0482007192A4 /* SASliderLeft.m */; };
+		F206F5801F0E0482007192A4 /* SASliderRight.m in Sources */ = {isa = PBXBuildFile; fileRef = F206F54F1F0E0482007192A4 /* SASliderRight.m */; };
+		F206F5811F0E0482007192A4 /* SAVideoRangeSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = F206F5511F0E0482007192A4 /* SAVideoRangeSlider.m */; };
+		F206F5821F0E0482007192A4 /* singleImageEditViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F206F5531F0E0482007192A4 /* singleImageEditViewController.m */; };
+		F206F5831F0E0482007192A4 /* singleVideoEditViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F206F5551F0E0482007192A4 /* singleVideoEditViewController.m */; };
+		F206F5841F0E0482007192A4 /* videoEditController.m in Sources */ = {isa = PBXBuildFile; fileRef = F206F5571F0E0482007192A4 /* videoEditController.m */; };
+		F206F5851F0E0482007192A4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F206F5591F0E0482007192A4 /* ViewController.m */; };
+		F206F5871F0E06A4007192A4 /* KMCShortVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F206F5861F0E06A4007192A4 /* KMCShortVideo.framework */; };
+		F206F5891F0E079D007192A4 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = F206F5881F0E079D007192A4 /* libz.tbd */; };
+		F206F58B1F0E07A3007192A4 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = F206F58A1F0E07A3007192A4 /* libc++.tbd */; };
+		F206F58D1F0E07AF007192A4 /* VideoToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F206F58C1F0E07AF007192A4 /* VideoToolbox.framework */; };
+		F206F58F1F0E07BE007192A4 /* libiconv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = F206F58E1F0E07BE007192A4 /* libiconv.tbd */; };
+		F206F5911F0E07C6007192A4 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F206F5901F0E07C6007192A4 /* AudioToolbox.framework */; };
+		F206F5931F0E07D9007192A4 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F206F5921F0E07D9007192A4 /* MobileCoreServices.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F206F3D11F0E039A007192A4 /* KMCShortVideoDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = KMCShortVideoDemo.app; path = KMCShortVideoDemo_IOS_IOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F206F4FD1F0E0482007192A4 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = source/AppDelegate.h; sourceTree = "<group>"; };
+		F206F4FE1F0E0482007192A4 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = source/AppDelegate.m; sourceTree = "<group>"; };
+		F206F4FF1F0E0482007192A4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = source/Assets.xcassets; sourceTree = "<group>"; };
+		F206F5021F0E0482007192A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F206F5041F0E0482007192A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Main.storyboard; sourceTree = "<group>"; };
+		F206F5061F0E0482007192A4 /* linCollectionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = linCollectionCell.h; sourceTree = "<group>"; };
+		F206F5071F0E0482007192A4 /* linCollectionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = linCollectionCell.m; sourceTree = "<group>"; };
+		F206F5081F0E0482007192A4 /* linCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = linCollectionView.h; sourceTree = "<group>"; };
+		F206F5091F0E0482007192A4 /* linCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = linCollectionView.m; sourceTree = "<group>"; };
+		F206F50C1F0E0482007192A4 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		F206F50D1F0E0482007192A4 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		F206F50E1F0E0482007192A4 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		F206F50F1F0E0482007192A4 /* README.mdown */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.mdown; sourceTree = "<group>"; };
+		F206F5101F0E0482007192A4 /* UIColor+Expanded.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Expanded.h"; sourceTree = "<group>"; };
+		F206F5111F0E0482007192A4 /* UIColor+Expanded.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Expanded.m"; sourceTree = "<group>"; };
+		F206F5131F0E0482007192A4 /* buttonCollectionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = buttonCollectionCell.h; sourceTree = "<group>"; };
+		F206F5141F0E0482007192A4 /* buttonCollectionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = buttonCollectionCell.m; sourceTree = "<group>"; };
+		F206F5151F0E0482007192A4 /* editCollectionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = editCollectionCell.h; sourceTree = "<group>"; };
+		F206F5161F0E0482007192A4 /* editCollectionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = editCollectionCell.m; sourceTree = "<group>"; };
+		F206F5171F0E0482007192A4 /* editCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = editCollectionView.h; sourceTree = "<group>"; };
+		F206F5181F0E0482007192A4 /* editCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = editCollectionView.m; sourceTree = "<group>"; };
+		F206F5191F0E0482007192A4 /* editCollectionViewFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = editCollectionViewFlowLayout.h; sourceTree = "<group>"; };
+		F206F51A1F0E0482007192A4 /* editCollectionViewFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = editCollectionViewFlowLayout.m; sourceTree = "<group>"; };
+		F206F51B1F0E0482007192A4 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = source/Info.plist; sourceTree = "<group>"; };
+		F206F51D1F0E0482007192A4 /* allContextViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = allContextViewController.h; sourceTree = "<group>"; };
+		F206F51E1F0E0482007192A4 /* allContextViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = allContextViewController.m; sourceTree = "<group>"; };
+		F206F51F1F0E0482007192A4 /* assetCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = assetCell.h; sourceTree = "<group>"; };
+		F206F5201F0E0482007192A4 /* assetCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = assetCell.m; sourceTree = "<group>"; };
+		F206F5211F0E0482007192A4 /* assetViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = assetViewController.h; sourceTree = "<group>"; };
+		F206F5221F0E0482007192A4 /* assetViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = assetViewController.m; sourceTree = "<group>"; };
+		F206F5231F0E0482007192A4 /* linImagePickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = linImagePickerViewController.h; sourceTree = "<group>"; };
+		F206F5241F0E0482007192A4 /* linImagePickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = linImagePickerViewController.m; sourceTree = "<group>"; };
+		F206F5251F0E0482007192A4 /* pictureViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pictureViewController.h; sourceTree = "<group>"; };
+		F206F5261F0E0482007192A4 /* pictureViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = pictureViewController.m; sourceTree = "<group>"; };
+		F206F5271F0E0482007192A4 /* slomoIconView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = slomoIconView.h; sourceTree = "<group>"; };
+		F206F5281F0E0482007192A4 /* slomoIconView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = slomoIconView.m; sourceTree = "<group>"; };
+		F206F5291F0E0482007192A4 /* videoIconView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = videoIconView.h; sourceTree = "<group>"; };
+		F206F52A1F0E0482007192A4 /* videoIconView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = videoIconView.m; sourceTree = "<group>"; };
+		F206F52B1F0E0482007192A4 /* videoIndicatorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = videoIndicatorView.h; sourceTree = "<group>"; };
+		F206F52C1F0E0482007192A4 /* videoIndicatorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = videoIndicatorView.m; sourceTree = "<group>"; };
+		F206F52D1F0E0482007192A4 /* videoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = videoViewController.h; sourceTree = "<group>"; };
+		F206F52E1F0E0482007192A4 /* videoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = videoViewController.m; sourceTree = "<group>"; };
+		F206F52F1F0E0482007192A4 /* macro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = macro.h; path = source/macro.h; sourceTree = "<group>"; };
+		F206F5301F0E0482007192A4 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = source/main.m; sourceTree = "<group>"; };
+		F206F5311F0E0482007192A4 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PrefixHeader.pch; path = source/PrefixHeader.pch; sourceTree = "<group>"; };
+		F206F5331F0E0482007192A4 /* QBAlbumCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QBAlbumCell.h; sourceTree = "<group>"; };
+		F206F5341F0E0482007192A4 /* QBAlbumCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QBAlbumCell.m; sourceTree = "<group>"; };
+		F206F5351F0E0482007192A4 /* QBAlbumsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QBAlbumsViewController.h; sourceTree = "<group>"; };
+		F206F5361F0E0482007192A4 /* QBAlbumsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QBAlbumsViewController.m; sourceTree = "<group>"; };
+		F206F5371F0E0482007192A4 /* QBAssetCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QBAssetCell.h; sourceTree = "<group>"; };
+		F206F5381F0E0482007192A4 /* QBAssetCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QBAssetCell.m; sourceTree = "<group>"; };
+		F206F5391F0E0482007192A4 /* QBAssetsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QBAssetsViewController.h; sourceTree = "<group>"; };
+		F206F53A1F0E0482007192A4 /* QBAssetsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QBAssetsViewController.m; sourceTree = "<group>"; };
+		F206F53B1F0E0482007192A4 /* QBCheckmarkView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QBCheckmarkView.h; sourceTree = "<group>"; };
+		F206F53C1F0E0482007192A4 /* QBCheckmarkView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QBCheckmarkView.m; sourceTree = "<group>"; };
+		F206F53D1F0E0482007192A4 /* QBImagePicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QBImagePicker.h; sourceTree = "<group>"; };
+		F206F53E1F0E0482007192A4 /* QBImagePicker.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = QBImagePicker.storyboard; sourceTree = "<group>"; };
+		F206F53F1F0E0482007192A4 /* QBImagePickerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QBImagePickerController.h; sourceTree = "<group>"; };
+		F206F5401F0E0482007192A4 /* QBImagePickerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QBImagePickerController.m; sourceTree = "<group>"; };
+		F206F5411F0E0482007192A4 /* QBSlomoIconView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QBSlomoIconView.h; sourceTree = "<group>"; };
+		F206F5421F0E0482007192A4 /* QBSlomoIconView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QBSlomoIconView.m; sourceTree = "<group>"; };
+		F206F5431F0E0482007192A4 /* QBVideoIconView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QBVideoIconView.h; sourceTree = "<group>"; };
+		F206F5441F0E0482007192A4 /* QBVideoIconView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QBVideoIconView.m; sourceTree = "<group>"; };
+		F206F5451F0E0482007192A4 /* QBVideoIndicatorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QBVideoIndicatorView.h; sourceTree = "<group>"; };
+		F206F5461F0E0482007192A4 /* QBVideoIndicatorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QBVideoIndicatorView.m; sourceTree = "<group>"; };
+		F206F5481F0E0482007192A4 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/QBImagePicker.strings"; sourceTree = "<group>"; };
+		F206F54A1F0E0482007192A4 /* SAResizibleBubble.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SAResizibleBubble.h; sourceTree = "<group>"; };
+		F206F54B1F0E0482007192A4 /* SAResizibleBubble.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SAResizibleBubble.m; sourceTree = "<group>"; };
+		F206F54C1F0E0482007192A4 /* SASliderLeft.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SASliderLeft.h; sourceTree = "<group>"; };
+		F206F54D1F0E0482007192A4 /* SASliderLeft.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SASliderLeft.m; sourceTree = "<group>"; };
+		F206F54E1F0E0482007192A4 /* SASliderRight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SASliderRight.h; sourceTree = "<group>"; };
+		F206F54F1F0E0482007192A4 /* SASliderRight.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SASliderRight.m; sourceTree = "<group>"; };
+		F206F5501F0E0482007192A4 /* SAVideoRangeSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SAVideoRangeSlider.h; sourceTree = "<group>"; };
+		F206F5511F0E0482007192A4 /* SAVideoRangeSlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SAVideoRangeSlider.m; sourceTree = "<group>"; };
+		F206F5521F0E0482007192A4 /* singleImageEditViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = singleImageEditViewController.h; path = source/singleImageEditViewController.h; sourceTree = "<group>"; };
+		F206F5531F0E0482007192A4 /* singleImageEditViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = singleImageEditViewController.m; path = source/singleImageEditViewController.m; sourceTree = "<group>"; };
+		F206F5541F0E0482007192A4 /* singleVideoEditViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = singleVideoEditViewController.h; path = source/singleVideoEditViewController.h; sourceTree = "<group>"; };
+		F206F5551F0E0482007192A4 /* singleVideoEditViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = singleVideoEditViewController.m; path = source/singleVideoEditViewController.m; sourceTree = "<group>"; };
+		F206F5561F0E0482007192A4 /* videoEditController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = videoEditController.h; path = source/videoEditController.h; sourceTree = "<group>"; };
+		F206F5571F0E0482007192A4 /* videoEditController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = videoEditController.m; path = source/videoEditController.m; sourceTree = "<group>"; };
+		F206F5581F0E0482007192A4 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = source/ViewController.h; sourceTree = "<group>"; };
+		F206F5591F0E0482007192A4 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = source/ViewController.m; sourceTree = "<group>"; };
+		F206F5861F0E06A4007192A4 /* KMCShortVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = KMCShortVideo.framework; path = ../framework/KMCShortVideo.framework; sourceTree = "<group>"; };
+		F206F5881F0E079D007192A4 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		F206F58A1F0E07A3007192A4 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		F206F58C1F0E07AF007192A4 /* VideoToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VideoToolbox.framework; path = System/Library/Frameworks/VideoToolbox.framework; sourceTree = SDKROOT; };
+		F206F58E1F0E07BE007192A4 /* libiconv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libiconv.tbd; path = usr/lib/libiconv.tbd; sourceTree = SDKROOT; };
+		F206F5901F0E07C6007192A4 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		F206F5921F0E07D9007192A4 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F206F3CE1F0E039A007192A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F206F5931F0E07D9007192A4 /* MobileCoreServices.framework in Frameworks */,
+				F206F5911F0E07C6007192A4 /* AudioToolbox.framework in Frameworks */,
+				F206F58F1F0E07BE007192A4 /* libiconv.tbd in Frameworks */,
+				F206F58D1F0E07AF007192A4 /* VideoToolbox.framework in Frameworks */,
+				F206F58B1F0E07A3007192A4 /* libc++.tbd in Frameworks */,
+				F206F5891F0E079D007192A4 /* libz.tbd in Frameworks */,
+				F206F5871F0E06A4007192A4 /* KMCShortVideo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		88A02A85663F340C2ACF254C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F206F5921F0E07D9007192A4 /* MobileCoreServices.framework */,
+				F206F5901F0E07C6007192A4 /* AudioToolbox.framework */,
+				F206F58E1F0E07BE007192A4 /* libiconv.tbd */,
+				F206F58C1F0E07AF007192A4 /* VideoToolbox.framework */,
+				F206F58A1F0E07A3007192A4 /* libc++.tbd */,
+				F206F5881F0E079D007192A4 /* libz.tbd */,
+				F206F5861F0E06A4007192A4 /* KMCShortVideo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F206F3C81F0E039A007192A4 = {
+			isa = PBXGroup;
+			children = (
+				F206F4FD1F0E0482007192A4 /* AppDelegate.h */,
+				F206F4FE1F0E0482007192A4 /* AppDelegate.m */,
+				F206F4FF1F0E0482007192A4 /* Assets.xcassets */,
+				F206F5001F0E0482007192A4 /* Base.lproj */,
+				F206F5051F0E0482007192A4 /* collectionView */,
+				F206F50A1F0E0482007192A4 /* common */,
+				F206F5121F0E0482007192A4 /* editCollectionView */,
+				F206F51B1F0E0482007192A4 /* Info.plist */,
+				F206F51C1F0E0482007192A4 /* LinImagePicker */,
+				F206F52F1F0E0482007192A4 /* macro.h */,
+				F206F5301F0E0482007192A4 /* main.m */,
+				F206F5311F0E0482007192A4 /* PrefixHeader.pch */,
+				F206F5321F0E0482007192A4 /* QBImagePicker */,
+				F206F5491F0E0482007192A4 /* SAVideoRangeSlider */,
+				F206F5521F0E0482007192A4 /* singleImageEditViewController.h */,
+				F206F5531F0E0482007192A4 /* singleImageEditViewController.m */,
+				F206F5541F0E0482007192A4 /* singleVideoEditViewController.h */,
+				F206F5551F0E0482007192A4 /* singleVideoEditViewController.m */,
+				F206F5561F0E0482007192A4 /* videoEditController.h */,
+				F206F5571F0E0482007192A4 /* videoEditController.m */,
+				F206F5581F0E0482007192A4 /* ViewController.h */,
+				F206F5591F0E0482007192A4 /* ViewController.m */,
+				F206F3D21F0E039A007192A4 /* Products */,
+				88A02A85663F340C2ACF254C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F206F3D21F0E039A007192A4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F206F3D11F0E039A007192A4 /* KMCShortVideoDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F206F5001F0E0482007192A4 /* Base.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				F206F5011F0E0482007192A4 /* LaunchScreen.storyboard */,
+				F206F5031F0E0482007192A4 /* Main.storyboard */,
+			);
+			name = Base.lproj;
+			path = source/Base.lproj;
+			sourceTree = "<group>";
+		};
+		F206F5051F0E0482007192A4 /* collectionView */ = {
+			isa = PBXGroup;
+			children = (
+				F206F5061F0E0482007192A4 /* linCollectionCell.h */,
+				F206F5071F0E0482007192A4 /* linCollectionCell.m */,
+				F206F5081F0E0482007192A4 /* linCollectionView.h */,
+				F206F5091F0E0482007192A4 /* linCollectionView.m */,
+			);
+			name = collectionView;
+			path = source/collectionView;
+			sourceTree = "<group>";
+		};
+		F206F50A1F0E0482007192A4 /* common */ = {
+			isa = PBXGroup;
+			children = (
+				F206F50B1F0E0482007192A4 /* MBProgressHUD */,
+				F206F5101F0E0482007192A4 /* UIColor+Expanded.h */,
+				F206F5111F0E0482007192A4 /* UIColor+Expanded.m */,
+			);
+			name = common;
+			path = source/common;
+			sourceTree = "<group>";
+		};
+		F206F50B1F0E0482007192A4 /* MBProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				F206F50C1F0E0482007192A4 /* LICENSE */,
+				F206F50D1F0E0482007192A4 /* MBProgressHUD.h */,
+				F206F50E1F0E0482007192A4 /* MBProgressHUD.m */,
+				F206F50F1F0E0482007192A4 /* README.mdown */,
+			);
+			path = MBProgressHUD;
+			sourceTree = "<group>";
+		};
+		F206F5121F0E0482007192A4 /* editCollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				F206F5131F0E0482007192A4 /* buttonCollectionCell.h */,
+				F206F5141F0E0482007192A4 /* buttonCollectionCell.m */,
+				F206F5151F0E0482007192A4 /* editCollectionCell.h */,
+				F206F5161F0E0482007192A4 /* editCollectionCell.m */,
+				F206F5171F0E0482007192A4 /* editCollectionView.h */,
+				F206F5181F0E0482007192A4 /* editCollectionView.m */,
+				F206F5191F0E0482007192A4 /* editCollectionViewFlowLayout.h */,
+				F206F51A1F0E0482007192A4 /* editCollectionViewFlowLayout.m */,
+			);
+			name = editCollectionView;
+			path = source/editCollectionView;
+			sourceTree = "<group>";
+		};
+		F206F51C1F0E0482007192A4 /* LinImagePicker */ = {
+			isa = PBXGroup;
+			children = (
+				F206F51D1F0E0482007192A4 /* allContextViewController.h */,
+				F206F51E1F0E0482007192A4 /* allContextViewController.m */,
+				F206F51F1F0E0482007192A4 /* assetCell.h */,
+				F206F5201F0E0482007192A4 /* assetCell.m */,
+				F206F5211F0E0482007192A4 /* assetViewController.h */,
+				F206F5221F0E0482007192A4 /* assetViewController.m */,
+				F206F5231F0E0482007192A4 /* linImagePickerViewController.h */,
+				F206F5241F0E0482007192A4 /* linImagePickerViewController.m */,
+				F206F5251F0E0482007192A4 /* pictureViewController.h */,
+				F206F5261F0E0482007192A4 /* pictureViewController.m */,
+				F206F5271F0E0482007192A4 /* slomoIconView.h */,
+				F206F5281F0E0482007192A4 /* slomoIconView.m */,
+				F206F5291F0E0482007192A4 /* videoIconView.h */,
+				F206F52A1F0E0482007192A4 /* videoIconView.m */,
+				F206F52B1F0E0482007192A4 /* videoIndicatorView.h */,
+				F206F52C1F0E0482007192A4 /* videoIndicatorView.m */,
+				F206F52D1F0E0482007192A4 /* videoViewController.h */,
+				F206F52E1F0E0482007192A4 /* videoViewController.m */,
+			);
+			name = LinImagePicker;
+			path = source/LinImagePicker;
+			sourceTree = "<group>";
+		};
+		F206F5321F0E0482007192A4 /* QBImagePicker */ = {
+			isa = PBXGroup;
+			children = (
+				F206F5331F0E0482007192A4 /* QBAlbumCell.h */,
+				F206F5341F0E0482007192A4 /* QBAlbumCell.m */,
+				F206F5351F0E0482007192A4 /* QBAlbumsViewController.h */,
+				F206F5361F0E0482007192A4 /* QBAlbumsViewController.m */,
+				F206F5371F0E0482007192A4 /* QBAssetCell.h */,
+				F206F5381F0E0482007192A4 /* QBAssetCell.m */,
+				F206F5391F0E0482007192A4 /* QBAssetsViewController.h */,
+				F206F53A1F0E0482007192A4 /* QBAssetsViewController.m */,
+				F206F53B1F0E0482007192A4 /* QBCheckmarkView.h */,
+				F206F53C1F0E0482007192A4 /* QBCheckmarkView.m */,
+				F206F53D1F0E0482007192A4 /* QBImagePicker.h */,
+				F206F53E1F0E0482007192A4 /* QBImagePicker.storyboard */,
+				F206F53F1F0E0482007192A4 /* QBImagePickerController.h */,
+				F206F5401F0E0482007192A4 /* QBImagePickerController.m */,
+				F206F5411F0E0482007192A4 /* QBSlomoIconView.h */,
+				F206F5421F0E0482007192A4 /* QBSlomoIconView.m */,
+				F206F5431F0E0482007192A4 /* QBVideoIconView.h */,
+				F206F5441F0E0482007192A4 /* QBVideoIconView.m */,
+				F206F5451F0E0482007192A4 /* QBVideoIndicatorView.h */,
+				F206F5461F0E0482007192A4 /* QBVideoIndicatorView.m */,
+				F206F5471F0E0482007192A4 /* QBImagePicker.strings */,
+			);
+			name = QBImagePicker;
+			path = source/QBImagePicker;
+			sourceTree = "<group>";
+		};
+		F206F5491F0E0482007192A4 /* SAVideoRangeSlider */ = {
+			isa = PBXGroup;
+			children = (
+				F206F54A1F0E0482007192A4 /* SAResizibleBubble.h */,
+				F206F54B1F0E0482007192A4 /* SAResizibleBubble.m */,
+				F206F54C1F0E0482007192A4 /* SASliderLeft.h */,
+				F206F54D1F0E0482007192A4 /* SASliderLeft.m */,
+				F206F54E1F0E0482007192A4 /* SASliderRight.h */,
+				F206F54F1F0E0482007192A4 /* SASliderRight.m */,
+				F206F5501F0E0482007192A4 /* SAVideoRangeSlider.h */,
+				F206F5511F0E0482007192A4 /* SAVideoRangeSlider.m */,
+			);
+			name = SAVideoRangeSlider;
+			path = source/SAVideoRangeSlider;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F206F3D01F0E039A007192A4 /* KMCShortVideoDemo_IOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F206F3E81F0E039A007192A4 /* Build configuration list for PBXNativeTarget "KMCShortVideoDemo_IOS" */;
+			buildPhases = (
+				F206F3CD1F0E039A007192A4 /* Sources */,
+				F206F3CE1F0E039A007192A4 /* Frameworks */,
+				F206F3CF1F0E039A007192A4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KMCShortVideoDemo_IOS;
+			productName = KMCShortVideoDemo;
+			productReference = F206F3D11F0E039A007192A4 /* KMCShortVideoDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F206F3C91F0E039A007192A4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = ksyun;
+				TargetAttributes = {
+					F206F3D01F0E039A007192A4 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = ZGJ54Q7R45;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = F206F3CC1F0E039A007192A4 /* Build configuration list for PBXProject "KMCShortVideoDemo_IOS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				"zh-Hans",
+			);
+			mainGroup = F206F3C81F0E039A007192A4;
+			productRefGroup = F206F3D21F0E039A007192A4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F206F3D01F0E039A007192A4 /* KMCShortVideoDemo_IOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F206F3CF1F0E039A007192A4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F206F55D1F0E0482007192A4 /* Main.storyboard in Resources */,
+				F206F55B1F0E0482007192A4 /* Assets.xcassets in Resources */,
+				F206F57D1F0E0482007192A4 /* QBImagePicker.strings in Resources */,
+				F206F5601F0E0482007192A4 /* LICENSE in Resources */,
+				F206F5681F0E0482007192A4 /* Info.plist in Resources */,
+				F206F55C1F0E0482007192A4 /* LaunchScreen.storyboard in Resources */,
+				F206F5781F0E0482007192A4 /* QBImagePicker.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F206F3CD1F0E039A007192A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F206F5731F0E0482007192A4 /* QBAlbumCell.m in Sources */,
+				F206F5701F0E0482007192A4 /* videoIndicatorView.m in Sources */,
+				F206F57B1F0E0482007192A4 /* QBVideoIconView.m in Sources */,
+				F206F57A1F0E0482007192A4 /* QBSlomoIconView.m in Sources */,
+				F206F5751F0E0482007192A4 /* QBAssetCell.m in Sources */,
+				F206F5831F0E0482007192A4 /* singleVideoEditViewController.m in Sources */,
+				F206F5631F0E0482007192A4 /* UIColor+Expanded.m in Sources */,
+				F206F5651F0E0482007192A4 /* editCollectionCell.m in Sources */,
+				F206F55F1F0E0482007192A4 /* linCollectionView.m in Sources */,
+				F206F5791F0E0482007192A4 /* QBImagePickerController.m in Sources */,
+				F206F5661F0E0482007192A4 /* editCollectionView.m in Sources */,
+				F206F5821F0E0482007192A4 /* singleImageEditViewController.m in Sources */,
+				F206F5641F0E0482007192A4 /* buttonCollectionCell.m in Sources */,
+				F206F5811F0E0482007192A4 /* SAVideoRangeSlider.m in Sources */,
+				F206F5771F0E0482007192A4 /* QBCheckmarkView.m in Sources */,
+				F206F55A1F0E0482007192A4 /* AppDelegate.m in Sources */,
+				F206F56A1F0E0482007192A4 /* assetCell.m in Sources */,
+				F206F57C1F0E0482007192A4 /* QBVideoIndicatorView.m in Sources */,
+				F206F5851F0E0482007192A4 /* ViewController.m in Sources */,
+				F206F57F1F0E0482007192A4 /* SASliderLeft.m in Sources */,
+				F206F55E1F0E0482007192A4 /* linCollectionCell.m in Sources */,
+				F206F56F1F0E0482007192A4 /* videoIconView.m in Sources */,
+				F206F5841F0E0482007192A4 /* videoEditController.m in Sources */,
+				F206F57E1F0E0482007192A4 /* SAResizibleBubble.m in Sources */,
+				F206F5741F0E0482007192A4 /* QBAlbumsViewController.m in Sources */,
+				F206F5721F0E0482007192A4 /* main.m in Sources */,
+				F206F56E1F0E0482007192A4 /* slomoIconView.m in Sources */,
+				F206F5711F0E0482007192A4 /* videoViewController.m in Sources */,
+				F206F5761F0E0482007192A4 /* QBAssetsViewController.m in Sources */,
+				F206F5611F0E0482007192A4 /* MBProgressHUD.m in Sources */,
+				F206F56D1F0E0482007192A4 /* pictureViewController.m in Sources */,
+				F206F5671F0E0482007192A4 /* editCollectionViewFlowLayout.m in Sources */,
+				F206F56B1F0E0482007192A4 /* assetViewController.m in Sources */,
+				F206F5691F0E0482007192A4 /* allContextViewController.m in Sources */,
+				F206F56C1F0E0482007192A4 /* linImagePickerViewController.m in Sources */,
+				F206F5621F0E0482007192A4 /* README.mdown in Sources */,
+				F206F5801F0E0482007192A4 /* SASliderRight.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F206F5011F0E0482007192A4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F206F5021F0E0482007192A4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		F206F5031F0E0482007192A4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F206F5041F0E0482007192A4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F206F5471F0E0482007192A4 /* QBImagePicker.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F206F5481F0E0482007192A4 /* zh-Hans */,
+			);
+			name = QBImagePicker.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F206F3E61F0E039A007192A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F206F3E71F0E039A007192A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F206F3E91F0E039A007192A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = ZGJ54Q7R45;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = ../framework;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/source/PrefixHeader.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/MJExtension\"",
+					"\"${PODS_ROOT}/Headers/Public/Masonry\"",
+					"\"${PODS_ROOT}/Headers/Public/SDWebImage\"",
+					../framework/,
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/source/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ksyun.KMCShortVideoDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F206F3EA1F0E039A007192A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = ZGJ54Q7R45;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = ../framework;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/source/PrefixHeader.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/MJExtension\"",
+					"\"${PODS_ROOT}/Headers/Public/Masonry\"",
+					"\"${PODS_ROOT}/Headers/Public/SDWebImage\"",
+					../framework/,
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/source/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ksyun.KMCShortVideoDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F206F3CC1F0E039A007192A4 /* Build configuration list for PBXProject "KMCShortVideoDemo_IOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F206F3E61F0E039A007192A4 /* Debug */,
+				F206F3E71F0E039A007192A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F206F3E81F0E039A007192A4 /* Build configuration list for PBXNativeTarget "KMCShortVideoDemo_IOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F206F3E91F0E039A007192A4 /* Debug */,
+				F206F3EA1F0E039A007192A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F206F3C91F0E039A007192A4 /* Project object */;
+}

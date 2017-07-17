@@ -1,0 +1,6 @@
+framework module KMCShortVideo {
+  umbrella header "KMCShortVideo.h"
+
+  export *
+  module * { export * }
+}
