@@ -61,7 +61,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		F206F3D11F0E039A007192A4 /* KMCShortVideoDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = KMCShortVideoDemo.app; path = KMCShortVideoDemo_IOS_IOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F206F3D11F0E039A007192A4 /* KMCShortVideoDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = KMCShortVideoDemo.app; path = KMCShortVideoDemo_IOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F206F4FD1F0E0482007192A4 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = source/AppDelegate.h; sourceTree = "<group>"; };
 		F206F4FE1F0E0482007192A4 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = source/AppDelegate.m; sourceTree = "<group>"; };
 		F206F4FF1F0E0482007192A4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = source/Assets.xcassets; sourceTree = "<group>"; };
@@ -385,7 +385,7 @@
 				TargetAttributes = {
 					F206F3D01F0E039A007192A4 = {
 						CreatedOnToolsVersion = 8.3.3;
-						DevelopmentTeam = ZGJ54Q7R45;
+						DevelopmentTeam = 36PUU93BJ2;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -597,7 +597,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = ZGJ54Q7R45;
+				DEVELOPMENT_TEAM = 36PUU93BJ2;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = ../framework;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/source/PrefixHeader.pch";
@@ -621,7 +621,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = ZGJ54Q7R45;
+				DEVELOPMENT_TEAM = 36PUU93BJ2;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = ../framework;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/source/PrefixHeader.pch";
